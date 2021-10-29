@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Drum Kit</title>
-    <link rel="stylesheet" href="drums.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Arvo"
-      rel="stylesheet"
-    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice challenge</title>
+    <link rel="stylesheet" href="dice.css">
   </head>
-
   <body>
-    <h1 id="title">Drum 🥁 Kit</h1>
-    <div class="set">
-      <button id="w" class="w drum">w</button>
-      <button id="a" class="a drum">a</button>
-      <button id="s" class="s drum">s</button>
-      <button id="d" class="d drum">d</button>
-      <button id="j" class="j drum">j</button>
-      <button id="k" class="k drum">k</button>
-      <button id="l" class="l drum">l</button>
-    </div>
+    <div class="container">
+      <h1>Refresh Me</h1>
 
-    <footer>❤ Made as part of Dr. Angela Yu's <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank">Udemy Web Development course</a> ❤</footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="drums.js"></script>
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="dice-images/dice6.png" />
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="dice-images/dice6.png" />
+      </div>
+    </div>
+    <script src="dice.js"></script>
   </body>
+
+  <footer>🎲Made as part of Dr. Angela Yu's <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank">Udemy Web Development course</a>🎲</footer>
 </html>
