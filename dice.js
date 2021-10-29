@@ -12,44 +12,44 @@ console.log(randomNumber2);
 // changing the image of dice 1
 switch (randomNumber1) {
   case 1:
-    document.querySelector(".img1").setAttribute("src", "images/dice1.png");
+    document.querySelector(".img1").setAttribute("src", "dice-images/dice1.png");
     break;
   case 2:
-    document.querySelector(".img1").setAttribute("src", "images/dice2.png");
+    document.querySelector(".img1").setAttribute("src", "dice-images/dice2.png");
     break;
   case 3:
-    document.querySelector(".img1").setAttribute("src", "images/dice3.png");
+    document.querySelector(".img1").setAttribute("src", "dice-images/dice3.png");
     break;
   case 4:
-    document.querySelector(".img1").setAttribute("src", "images/dice4.png");
+    document.querySelector(".img1").setAttribute("src", "dice-images/dice4.png");
     break;
   case 5:
-    document.querySelector(".img1").setAttribute("src", "images/dice5.png");
+    document.querySelector(".img1").setAttribute("src", "dice-images/dice5.png");
     break;
   case 6:
-    document.querySelector(".img1").setAttribute("src", "images/dice6.png");
+    document.querySelector(".img1").setAttribute("src", "dice-images/dice6.png");
     break;
 }
 
 // changing the image of dice 2
 switch (randomNumber2) {
   case 1:
-    document.querySelector(".img2").setAttribute("src", "images/dice1.png");
+    document.querySelector(".img2").setAttribute("src", "dice-images/dice1.png");
     break;
   case 2:
-    document.querySelector(".img2").setAttribute("src", "images/dice2.png");
+    document.querySelector(".img2").setAttribute("src", "dice-images/dice2.png");
     break;
   case 3:
-    document.querySelector(".img2").setAttribute("src", "images/dice3.png");
+    document.querySelector(".img2").setAttribute("src", "dice-images/dice3.png");
     break;
   case 4:
-    document.querySelector(".img2").setAttribute("src", "images/dice4.png");
+    document.querySelector(".img2").setAttribute("src", "dice-images/dice4.png");
     break;
   case 5:
-    document.querySelector(".img2").setAttribute("src", "images/dice5.png");
+    document.querySelector(".img2").setAttribute("src", "dice-images/dice5.png");
     break;
   case 6:
-    document.querySelector(".img2").setAttribute("src", "images/dice6.png");
+    document.querySelector(".img2").setAttribute("src", "dice-images/dice6.png");
     break;
 }
 // changing the h1 heading depending on the winner
